@@ -1,0 +1,154 @@
+body{
+    background-color: rgba(249, 249, 249, 1);
+    ;
+}
+
+h1{
+text-align: center;
+font-family: poppins;
+font-weight: 500;
+font-size: 32px;
+line-height: 19.14px;
+margin-top: 58px;
+}
+#container {
+width: 388.17px;
+height: 41.05px;
+margin-top: 50px;
+margin-left: 317.62px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+#all {
+width: 51.2px;
+height: 39.97px;
+border: 2px solid rgba(20, 20, 22, 1);
+border-radius: 9.43px;
+font-family: manrope;
+font-size: 11px;
+font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#Category {
+    width: 97.46px;
+    height: 39.97px;
+    border: 2px solid rgba(20, 20, 22, 1);
+    border-radius: 9.43px;
+    font-family: manrope;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #Collection {
+        width: 103.75px;
+        height: 39.97px;
+        border: 2px solid rgba(20, 20, 22, 1);
+        border-radius: 9.43px;
+        font-family: manrope;
+        font-size: 11px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 6.29;
+        }
+        #Price {
+            width: 88.82px;
+            height: 39.97px;
+            border: 2px solid rgba(20, 20, 22, 1);
+            border-radius: 9.43px;
+            font-family: manrope;
+            font-size: 11px;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            }
+
+#block1 {
+    background-color: white;
+    display: flex;
+    width: 200px;
+    height: 287px;
+    border-radius: 16px;
+    margin-top: 60px;
+    margin-left: 68px;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 27px 8px 42px rgba(199, 199, 199, 0.6);
+    padding: 10px 0px 0px;
+}
+
+#content1 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 173px;
+    height: 68px;
+    
+}
+
+img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 10px;
+}
+h2 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+#CurrentBid {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+p.bid {
+    margin-bottom: -5px;
+    color: rgba(148, 163, 184, 1);
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 400;
+}
+#textandcurrentbid {
+    display: flex;
+    flex-direction: column;
+    width: 87px;
+}
+p.svgtext1 {
+    width: 39px;
+    height: 18px;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+button.buttoncard {
+    all: unset;
+    width: 87px;
+    height: 37px;
+    border-radius: 8.5px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+}
+p.placebid {
+    font-family: poppins;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
