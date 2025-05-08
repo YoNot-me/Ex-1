@@ -165,7 +165,10 @@ button.buttoncard {
     display: flex;
     background-color: black;
     justify-content: center;
-
+    transition: all 0.5s;
+}
+button:hover{
+    transform: scale(1.05)
 }
 p.placebid {
     font-family: poppins;
