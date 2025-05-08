@@ -95,11 +95,32 @@ align-items: center;
     
 }
 
-img {
-    max-width: 180px;
-    max-height: 180px;
+#img1 {
+    display: flex;
+    justify-content: end;
+    width: 180px;
+    height: 180px;
+    background-color: wheat;
     border-radius: 10px;
+    background-image: url(https://i.pinimg.com/736x/5f/fb/72/5ffb724c201f950469a093a52282dd11.jpg);
+    background-size: cover;
 }
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 10px;
+    color: white;
+    background-color: rgba(28, 29, 32, 0.35);
+    border-radius: 6px;
+    border: 0.84px solid rgba(28, 29, 32, 0.08);
+    width: 83px;
+    height: 27px;
+    margin-right: 6px;
+}
+
 h2 {
     font-family: poppins;
     font-weight: 600;
