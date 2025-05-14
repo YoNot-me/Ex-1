@@ -39,6 +39,11 @@ line-height: 19.14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5ms all;
+}
+.navigation-bar__al:hover{
+    background-color: black;
+    color: white;
 }
 .navigation-bar__category {
     width: 97.46px;
@@ -68,42 +73,63 @@ line-height: 19.14px;
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 887px;
-    height: 287px;
+    grid-gap: 48px 28px;
+    margin-top: 70px;
 }
-.grid__content {
+.card {
+
     background-color: white;
     display: flex;
     width: 200px;
-    height: 287px;
     border-radius: 16px;
-    margin-top: 60px;
     align-items: center;
     flex-direction: column;
     box-shadow: 27px 8px 42px rgba(199, 199, 199, 0.6);
-    padding: 10px 0px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 /* .............card............. */
-
 .content {
     display: flex;
-    justify-content: left;
     flex-direction: column;
-    width: 173px;
-    height: 68px;
+    font-family: poppins;
 }
-.content__img {
-    display: flex;
+/* .............imges............. */
+.card__img {
+     display: flex;
     justify-content: end;
     width: 180px;
     height: 180px;
-    background-color: wheat;
     border-radius: 10px;
     background-image: url(https://i.pinimg.com/736x/5f/fb/72/5ffb724c201f950469a093a52282dd11.jpg);
     background-size: cover;
 }
-.img__timer {
+.first {
+    background-image: url(https://i.pinimg.com/736x/5f/fb/72/5ffb724c201f950469a093a52282dd11.jpg);
+}
+.second {
+    background-image: url(https://i.pinimg.com/736x/7a/03/75/7a03757cc241ceac2e3f8df7a271615b.jpg);
+}
+.third {
+    background-image: url(https://i.pinimg.com/736x/ee/47/c0/ee47c0df5fe2ebc67b105d0b13307fdc.jpg);
+}
+.four {
+    background-image: url(https://i.pinimg.com/736x/43/d6/2a/43d62a1b34274b08296ea7fb4137c160.jpg);
+}
+.five {
+    background-image: url(https://i.pinimg.com/736x/77/71/c7/7771c7131f47eb299c28127604eb31af.jpg);
+}
+.six {
+    background-image: url(https://i.pinimg.com/736x/d3/b1/86/d3b18633b92f3426b9cf926875a44e1f.jpg);
+}
+.seven {
+    background-image: url(https://i.pinimg.com/736x/76/93/d9/7693d919b0d951c405dfa518f28936d8.jpg);
+}
+.eight {
+    background-image: url(https://i.pinimg.com/736x/04/ab/15/04ab154e8aef5ecafd7fd92485157b15.jpg);
+}
+/* .............&&&&&............. */
+.card__timer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,38 +145,31 @@ line-height: 19.14px;
     margin: 6px 6px 0px 0px;
 }
 .content__title {
-    font-family: poppins;
     font-weight: 600;
     font-size: 15px;
     margin-top: 13px;
 }
-.content__box {
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 10px;
+.content__wrap {
     display: flex;
     align-items: center;
-    gap: 30px;
+    margin-top: 10px;
+}
+.content__inside {
+    display: flex;
+    flex-direction: column;
+    width: 86px;
 }
 .content__text {
-    color: rgba(148, 163, 184, 1);
-    font-size: 10px;
-    font-family: poppins;
     font-weight: 400;
-    display: flex;
-    justify-items: center;
+    font-size: 10px;
+    gap: 2px;
+    color: rgba(148, 163, 184, 1);
 }
 .text-175 {
-    width: 39px;
-    height: 18px;
     font-size: 12px;
-    font-family: poppins;
     font-weight: 500;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
-.buttoncard {
+.wrap__button {
     all: unset;
     width: 87px;
     height: 37px;
@@ -159,24 +178,23 @@ line-height: 19.14px;
     align-items: center;
     background-color: black;
     color: white;
-    font-family: poppins;
     font-size: 10px;
     font-weight: 600;
     justify-content: center;
     transition: all 0.5s;
+    cursor: pointer;
 }
 button:hover{
     transform: scale(1.05)
 }
 
-/* EX#2 */
+/* .............EX#2............. */
 .exN2{
     position: relative;
     background-color: white;
     margin-top: 100px;
     width: 100vw;
 }
-
 .exN2__title{
     font-family: "Source Sans 3", sans-serif;
     font-size: 18px;
@@ -186,7 +204,6 @@ button:hover{
     font-style: normal;
     color: rgba(86, 86, 90, 1);
 }
-
 .exN2__p{
     font-family: "Source Sans 3", sans-serif;
     font-size: 14px;
@@ -197,13 +214,11 @@ button:hover{
     color: rgba(86, 86, 90, 1);
     width: 179px;
 }
-
 .exN2__line{
     width: 170px;
     border: 1px solid rgba(229, 229, 229, 1);
     margin: 0px;
 }
-
 .exN2__three-blocks{
     display: grid;
     grid-template-areas:
@@ -213,7 +228,6 @@ button:hover{
     align-items: center;
     grid-template-columns: auto 60px auto 15px auto;
 }
-
 .information{
     display: flex;
     flex-direction: column;
@@ -221,11 +235,9 @@ button:hover{
     width: 470px;
     gap: 30px;
 }
-
 .exN2__information-texts {
     gap: 10px;
 }
-
 .exN2__information-text {       
     font-family: "Source Sans 3", sans-serif;
     font-size: 14px;
@@ -234,7 +246,6 @@ button:hover{
     margin: 15px 0px 0px 0px;
     color: rgba(86, 86, 90, 1);
 }
-
 .exN2__information-title {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 36px;
@@ -243,7 +254,6 @@ button:hover{
     color: rgba(86, 86, 90, 1);
     margin: 0px;
 }
-
 .information__button-NPA {
     all: unset;
     width: 142px;
@@ -255,7 +265,6 @@ button:hover{
     font-size: 14px;
     font-weight: 600;
 }
-
 .information__button-PU {
     all: unset;
     width: 142px;
@@ -268,13 +277,11 @@ button:hover{
     font-weight: 600;
     margin-left: 15px;
 }
-
 .exN2__three-blocks > div.exN2__block2 {
     display: flex;
     flex-direction: column;
     width: 270px;
 }
-
 .exN2__block1-2 > div.exN2__block1 {
     display: flex;
     justify-content: center;
@@ -283,7 +290,6 @@ button:hover{
     height: 196px;
     background-color: rgba(247, 247, 247, 1);
 }
-
 .exN2__block1-2 > div.exN2__block2 {
     display: flex;
     justify-content: center;
@@ -293,7 +299,6 @@ button:hover{
     background-color: rgba(247, 247, 247, 1);
     margin-top: 15px;
 }
-
 .exN2__three-blocks > div.exN2__block3 {
     display: flex;
     justify-content: center;
@@ -302,7 +307,6 @@ button:hover{
     height: 402px;
     background-color: rgba(247, 247, 247, 1);
 }
-
 .exN2__elements{
     display: flex;
     flex-direction: column;
@@ -311,7 +315,6 @@ button:hover{
     width: 226px;
     height: auto;
 }
-
 .exN2__elements-1{
     display: flex;
     flex-direction: column;
@@ -320,15 +323,12 @@ button:hover{
     width: 226px;
     height: auto;
 }
-
 .exN2__title {
     margin: 0px 0px 15px 0px;
 }
-
 .exN2__p {
     margin: 15px 0px 0px 0px;
 }
-
 .exN2__svg {
     margin: 0px 0px 10px 0px;
 }
