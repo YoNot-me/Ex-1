@@ -39,11 +39,7 @@ line-height: 19.14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5ms all;
-}
-.navigation-bar__al:hover{
-    background-color: black;
-    color: white;
+    transition: all 0.5s;
 }
 .navigation-bar__category {
     width: 97.46px;
@@ -52,6 +48,7 @@ line-height: 19.14px;
     justify-content: center;
     align-items: center;
     gap: 6px;
+    transition: all 0.5s;
 }
 .navigation-bar__collection {
     width: 103.75px;
@@ -60,6 +57,7 @@ line-height: 19.14px;
     justify-content: center;
     align-items: center;
     gap: 6.29;
+    transition: all 0.5s;
 }
 .navigation-bar__price {
     width: 88.82px;
@@ -67,6 +65,12 @@ line-height: 19.14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s;
+}
+.nav:hover{
+    background-color: black;
+    color: white;
+    coursor: pointer;
 }
 
 /* .............grid............. */
@@ -77,7 +81,7 @@ line-height: 19.14px;
     margin-top: 70px;
 }
 .card {
-
+    box-sizing: border-box;
     background-color: white;
     display: flex;
     width: 200px;
@@ -128,7 +132,7 @@ line-height: 19.14px;
 .eight {
     background-image: url(https://i.pinimg.com/736x/04/ab/15/04ab154e8aef5ecafd7fd92485157b15.jpg);
 }
-/* .............&&&&&............. */
+/* ............................... */
 .card__timer {
     display: flex;
     align-items: center;
@@ -145,9 +149,13 @@ line-height: 19.14px;
     margin: 6px 6px 0px 0px;
 }
 .content__title {
+    width: 173px;
     font-weight: 600;
     font-size: 15px;
     margin-top: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .content__wrap {
     display: flex;
