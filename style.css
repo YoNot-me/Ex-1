@@ -9,109 +9,91 @@ body{
     flex-direction: column;
     background-color: rgba(249, 249, 249, 1);
 }
-h1{
+.exn1__header{
 text-align: center;
 font-family: poppins;
 font-weight: 500;
 font-size: 32px;
 line-height: 19.14px;
-margin-top: 58px;
 }
-#container {
-width: 100%;
-height: 41.05px;
-margin-top: 50px;
-margin-bottom: 30px;
-display: flex;
-flex-direction: row;
-align-content: center;
-justify-content: center;
-justify-items: center;
-gap: 5px;
+/* .............navigation bar............. */
+
+.exn1__navigation-bar {
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.navigation {
+    border: 2px solid rgba(20, 20, 22, 1);
+    border-radius: 9.43px;
+    font-family: manrope;
+    font-size: 11px;
+    font-weight: 600;
+    gap: 6px;
+}
+.navigation-bar__all {
+    width: 51.2px;
+    height: 39.97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-bar__category {
+    width: 97.46px;
+    height: 39.97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.navigation-bar__collection {
+    width: 103.75px;
+    height: 39.97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.29;
+}
+.navigation-bar__price {
+    width: 88.82px;
+    height: 39.97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-#all {
-width: 51.2px;
-height: 39.97px;
-border: 2px solid rgba(20, 20, 22, 1);
-border-radius: 9.43px;
-font-family: manrope;
-font-size: 11px;
-font-weight: 600;
-display: flex;
-justify-content: center;
-align-items: center;
+/* .............grid............. */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 887px;
+    height: 287px;
 }
-#allblocks{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-align-items: start;
-width: 887px;
-height: 287px;
-}
-#block1 {
+.grid__content {
     background-color: white;
     display: flex;
     width: 200px;
     height: 287px;
     border-radius: 16px;
     margin-top: 60px;
-    /* justify-content: space-around; */
     align-items: center;
     flex-direction: column;
     box-shadow: 27px 8px 42px rgba(199, 199, 199, 0.6);
     padding: 10px 0px 0px;
 }
-#Category {
-    width: 97.46px;
-    height: 39.97px;
-    border: 2px solid rgba(20, 20, 22, 1);
-    border-radius: 9.43px;
-    font-family: manrope;
-    font-size: 11px;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    }
-    #Collection {
-        width: 103.75px;
-        height: 39.97px;
-        border: 2px solid rgba(20, 20, 22, 1);
-        border-radius: 9.43px;
-        font-family: manrope;
-        font-size: 11px;
-        font-weight: 600;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 6.29;
-        }
-        #Price {
-            width: 88.82px;
-            height: 39.97px;
-            border: 2px solid rgba(20, 20, 22, 1);
-            border-radius: 9.43px;
-            font-family: manrope;
-            font-size: 11px;
-            font-weight: 600;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            }
 
-#content1 {
+/* .............card............. */
+
+.content {
     display: flex;
     justify-content: left;
     flex-direction: column;
     width: 173px;
     height: 68px;
-    
 }
-
-#img1 {
+.content__img {
     display: flex;
     justify-content: end;
     width: 180px;
@@ -121,7 +103,7 @@ height: 287px;
     background-image: url(https://i.pinimg.com/736x/5f/fb/72/5ffb724c201f950469a093a52282dd11.jpg);
     background-size: cover;
 }
-#timer {
+.img__timer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,36 +116,31 @@ height: 287px;
     border: 0.84px solid rgba(28, 29, 32, 0.08);
     width: 83px;
     height: 27px;
-    margin-right: 6px;
+    margin: 6px 6px 0px 0px;
 }
-
-h2 {
+.content__title {
     font-family: poppins;
     font-weight: 600;
     font-size: 15px;
-    margin-bottom: 1px;
+    margin-top: 13px;
 }
-#CurrentBid {
+.content__box {
     font-family: poppins;
     font-weight: 400;
     font-size: 10px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    gap: 30px;
 }
-p.bid {
-    margin-bottom: -5px;
+.content__text {
     color: rgba(148, 163, 184, 1);
     font-size: 10px;
     font-family: poppins;
     font-weight: 400;
-}
-#textandcurrentbid {
     display: flex;
-    flex-direction: column;
-    width: 87px;
+    justify-items: center;
 }
-p.svgtext1 {
+.text-175 {
     width: 39px;
     height: 18px;
     font-size: 12px;
@@ -173,24 +150,23 @@ p.svgtext1 {
     flex-direction: row;
     justify-content: space-around;
 }
-button.buttoncard {
+.buttoncard {
     all: unset;
     width: 87px;
     height: 37px;
     border-radius: 8.5px;
     display: flex;
+    align-items: center;
     background-color: black;
+    color: white;
+    font-family: poppins;
+    font-size: 10px;
+    font-weight: 600;
     justify-content: center;
     transition: all 0.5s;
 }
 button:hover{
     transform: scale(1.05)
-}
-p.placebid {
-    font-family: poppins;
-    font-size: 10px;
-    font-weight: 600;
-    color: white;
 }
 
 /* EX#2 */
