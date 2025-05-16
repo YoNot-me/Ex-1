@@ -3,47 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ex</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Explore Marketplace</h1>
-    <div style="container" id="container">
-        <div id="all">All</div>
-        <div id="Category"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
-            <path d="M9.89607 0.632568H2.22298C1.07351 0.632568 0.133041 1.56557 0.133041 2.7225V13.4633C0.133041 14.6202 1.07351 15.5607 2.22298 15.5607H9.89607C11.053 15.5607 11.986 14.6202 11.986 13.4633V2.7225C11.986 1.56557 11.053 0.632568 9.89607 0.632568ZM2.9918 11.4032H9.12725C9.44074 11.4032 9.68706 11.657 9.68706 11.963C9.68706 12.2691 9.44074 12.5229 9.12725 12.5229H2.9918C2.68577 12.5229 2.43199 12.2691 2.43199 11.963C2.43199 11.657 2.68577 11.4032 2.9918 11.4032ZM2.43199 8.1265C2.43199 7.82047 2.68577 7.5667 2.9918 7.5667H9.12725C9.44074 7.5667 9.68706 7.82047 9.68706 8.1265C9.68706 8.43999 9.44074 8.68631 9.12725 8.68631H2.9918C2.68577 8.68631 2.43199 8.43999 2.43199 8.1265ZM9.12725 4.84977H2.9918C2.68577 4.84977 2.43199 4.60346 2.43199 4.28996C2.43199 3.98394 2.68577 3.73016 2.9918 3.73016H9.12725C9.44074 3.73016 9.68706 3.98394 9.68706 4.28996C9.68706 4.60346 9.44074 4.84977 9.12725 4.84977Z" fill="black"/>
-            </svg>Category</div>
-        <div id="Collection"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M12.9178 0.662842H3.70708C2.13216 0.662842 0.848344 1.94666 0.848344 3.52158V12.7323C0.848344 14.3072 2.13216 15.591 3.70708 15.591H12.9178C14.2762 15.591 15.4108 14.6356 15.7019 13.3667C15.7466 13.2846 15.7765 13.195 15.7765 13.098V3.52158C15.7765 1.94666 14.4927 0.662842 12.9178 0.662842ZM13.4776 8.89572C13.4776 9.20175 13.2238 9.45553 12.9178 9.45553C12.6043 9.45553 12.358 9.20175 12.358 8.89572V7.35812C12.358 7.0521 12.6043 6.79832 12.9178 6.79832C13.2238 6.79832 13.4776 7.0521 13.4776 7.35812V8.89572ZM3.14727 8.89572V7.35812C3.14727 7.0521 3.40105 6.79832 3.70708 6.79832C4.02057 6.79832 4.26688 7.0521 4.26688 7.35812V8.89572C4.26688 9.20175 4.02057 9.45553 3.70708 9.45553C3.40105 9.45553 3.14727 9.20175 3.14727 8.89572ZM11.1712 5.82799V10.4259C11.1712 10.7394 10.9248 10.9857 10.6114 10.9857C10.3053 10.9857 10.0515 10.7394 10.0515 10.4259V5.82799C10.0515 5.51449 10.3053 5.26818 10.6114 5.26818C10.9248 5.26818 11.1712 5.51449 11.1712 5.82799ZM8.87223 4.29039V11.9635C8.87223 12.2695 8.61845 12.5233 8.31243 12.5233C8.0064 12.5233 7.75262 12.2695 7.75262 11.9635V4.29039C7.75262 3.98436 8.0064 3.73058 8.31243 3.73058C8.61845 3.73058 8.87223 3.98436 8.87223 4.29039ZM6.57331 5.82799V10.4259C6.57331 10.7394 6.31953 10.9857 6.0135 10.9857C5.70001 10.9857 5.45369 10.7394 5.45369 10.4259V5.82799C5.45369 5.51449 5.70001 5.26818 6.0135 5.26818C6.31953 5.26818 6.57331 5.51449 6.57331 5.82799Z" fill="black"/>
-            </svg>Collection</div>
-        <div id="Price"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M13.381 2.80719C12.0076 1.4338 10.1789 0.679932 8.23829 0.679932C6.29763 0.679932 4.46893 1.4338 3.09554 2.80719C1.71468 4.18058 0.960808 6.00929 0.960808 7.95741C0.960808 8.91281 1.14741 9.85329 1.51315 10.7415C1.87889 11.6297 2.4163 12.4209 3.09554 13.1002C3.7673 13.7794 4.56596 14.3093 5.45419 14.6751C6.34241 15.0483 7.27542 15.2349 8.23829 15.2349C9.20115 15.2349 10.1342 15.0483 11.0224 14.6751C11.9106 14.3093 12.7093 13.7794 13.381 13.1002C14.0603 12.4209 14.5977 11.6297 14.9634 10.7415C15.3292 9.85329 15.5158 8.91281 15.5158 7.95741C15.5158 6.00929 14.7619 4.18058 13.381 2.80719ZM8.79809 11.1595V11.3162C8.79809 11.6223 8.54431 11.8761 8.23829 11.8761C7.93226 11.8761 7.67848 11.6223 7.67848 11.3162V11.152C7.02164 11.0475 6.43944 10.7639 6.06624 10.3385C5.90203 10.1444 5.8871 9.86075 6.03638 9.65176C6.18566 9.4353 6.45437 9.36066 6.69322 9.45023L7.67848 9.82343V8.46497C6.51408 8.28583 5.66318 7.53196 5.66318 6.61387C5.66318 5.68833 6.51408 4.94192 7.67848 4.75532V4.59857C7.67848 4.28508 7.93226 4.03877 8.23829 4.03877C8.54431 4.03877 8.79809 4.28508 8.79809 4.59857V4.75532C9.45493 4.86728 10.0371 5.15092 10.4103 5.56891C10.5745 5.76297 10.5895 6.04661 10.4402 6.26307C10.3357 6.41235 10.164 6.50192 9.98488 6.50192C9.91771 6.50192 9.85053 6.48699 9.78335 6.46459L8.79809 6.08393V7.44239C9.96249 7.62153 10.8134 8.3754 10.8134 9.30095C10.8134 10.2265 9.96249 10.9729 8.79809 11.1595Z" fill="black"/>
-            </svg>Price</div>
-    </div>
-<div id="allblocks">
-    <div id="block1">
-        <div id="img1">
-        <p id="timer">07h 09m 12s</p>
+    <section class="exn1">
+    <h1 class="exn1__header">Explore Marketplace</h1>
+    <div class="exn1__navigation-bar">
+
+        <div class="navigation-bar__all navigation nav">All</div>
+        <div class="navigation-bar__category navigation nav">
+            <img class="svg"src="materials/content/category.svg">
+            <span>Category</span>
         </div>
-            <div id="content1">
-            <h2>Uzbeki i nihuya</h2>
-                 <div id="CurrentBid">
-                    <div id="textandcurrentbid">
-                        <p class="bid">Current bid</p>
-                    <p class="svgtext1"> <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
-                    <path d="M3.98676 0.984741L0.0526428 7.59406L3.98676 9.95453L7.92088 7.59406L3.98676 0.984741ZM0.0526428 8.38088L3.98676 13.8886L7.92088 8.38088L3.98676 10.7414L0.0526428 8.38088Z" fill="#141416"/>
-                    </svg> 1.75</p>
+        <div class="navigation-bar__collection navigation nav">
+            <img src="materials/content/Collection.svg">
+            <span>Collection</span>
+        </div>
+        <div class="navigation-bar__price navigation nav">
+            <img src="materials/content/Price.svg">
+            <span>Price</span></div>
+    </div>
+<div class="grid">
+    <div class="card">
+        <div class="card__img first">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Uzbeki i nihuya kniga cupi</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
                     </div>
-                    <button class="buttoncard"><p class="placebid">PLACE BID</p></button>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img second">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Gucci</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img third">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Tips</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img four">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Nosik</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img five">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Fanta</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img six">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Kak ne ohuet'</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img seven">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Unarmed?</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
+                </div>
+             </div>
+    </div>
+    <div class="card">
+        <div class="card__img eight">
+        <time datetime="2025-05-14 08:35" class="card__timer">07h 09m 12s</time>
+        </div>
+            <div class="content">
+            <span class="content__title">Indian sad</span>
+                <div class="content__wrap">
+                    <div class="content__inside">
+                        <span class="content__text">Current bid</span>
+                            <div class="content__cost">
+                             <img src="materials/content/ephir.svg">
+                             <span class="text-175">1.75</span>
+                            </div>
+                    </div>
+                    <button class="wrap__button">PLACE BID</button>
                 </div>
              </div>
     </div>
 </div>
+</section>
+
+<section class="exN2">
+    <div class="inside">
+            <div class="exN2__three-blocks">
+                <div style="grid-area: block1;" class="information">
+                    <div class="exN2__information-texts">
+                    <h3 class="exN2__information-title">Умови отриманння доходу</h3>
+                    <p class="exN2__information-text">Основний план Amway – модель, яка з 1959 року допомагає людям у різних країнах отримувати дохід та покращувати якість життя.</p>
+                    </div>
+                    <div class="exN2__buttons">
+                    <button class="information__button-NPA">Для НПА</button>
+                    <button class="information__button-PU">Для ПУ</button>
+                    </div>
+                </div>
+                    <div style="grid-area: block2" class="exN2__block1-2">
+                    <div class="exN2__block1">
+                <div class="exN2__elements">
+            <svg class="exN2__svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <path d="M11.5441 16V14.5981C11.0931 14.5514 10.6373 14.4393 10.1765 14.2617C9.72549 14.0748 9.33333 13.8318 9 13.5327L9.76471 12.4393C10.1078 12.7009 10.4559 12.9112 10.8088 13.0701C11.1618 13.229 11.5392 13.3084 11.9412 13.3084C12.4216 13.3084 12.7794 13.2056 13.0147 13C13.25 12.785 13.3676 12.486 13.3676 12.1028C13.3676 11.7944 13.2696 11.5374 13.0735 11.3318C12.8775 11.1262 12.6275 10.9393 12.3235 10.771C12.0294 10.6028 11.7108 10.4439 11.3676 10.2944C11.0245 10.1355 10.701 9.95327 10.3971 9.74766C10.1029 9.53271 9.85784 9.28037 9.66176 8.99065C9.46569 8.69159 9.36765 8.32243 9.36765 7.88318C9.36765 7.22897 9.56373 6.68692 9.95588 6.25701C10.348 5.81776 10.8775 5.54206 11.5441 5.42991V4H12.7206V5.40187C13.1912 5.45794 13.5931 5.58879 13.9265 5.79439C14.2696 5.99065 14.5784 6.2243 14.8529 6.49533L13.9853 7.43458C13.7108 7.19159 13.4461 7.00935 13.1912 6.88785C12.9363 6.75701 12.6324 6.69159 12.2794 6.69159C11.8775 6.69159 11.5637 6.78972 11.3382 6.98598C11.1127 7.1729 11 7.4486 11 7.81308C11 8.09346 11.098 8.3271 11.2941 8.51402C11.4902 8.69159 11.7353 8.85981 12.0294 9.01869C12.3333 9.16822 12.6569 9.32243 13 9.48131C13.3431 9.63084 13.6618 9.81308 13.9559 10.028C14.2598 10.243 14.5098 10.5093 14.7059 10.8271C14.902 11.1355 15 11.5234 15 11.9907C15 12.6636 14.8039 13.229 14.4118 13.6869C14.0196 14.1355 13.4559 14.4252 12.7206 14.5561V16H11.5441Z" fill="#EB174B"/>
+            <path d="M3.85715 28L13.368 18.5056L18.9281 24.0562L28 15" stroke="#0A467E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24.2857 15H28V18.7143" stroke="#0A467E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M23.7275 10C22.586 4.85081 17.9927 1 12.5 1C6.14873 1 1 6.14873 1 12.5C1 15.8674 2.44736 18.8968 4.75392 21" stroke="#EB174B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h4 class="exN2__title">Система компенсацій Amway</h4>
+            <hr class="exN2__line"></hr>
+            <p class="exN2__p">Додаткові бонуси та мотиваційні подорожі!</p>
+                </div>
+                    </div>
+                    <div class="exN2__block2">
+                    <div class="exN2__elements">
+                <svg style="exN2__svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <g clip-path="url(#clip0_2_360)">
+                            <path d="M10.2408 24.9155C9.99048 24.9155 9.86531 24.8028 9.86531 24.5775C9.86531 24.5099 9.88707 24.4479 9.93061 24.3916L17.9959 13.4056C18.0721 13.3042 18.1483 13.2254 18.2245 13.169C18.3007 13.1127 18.415 13.0845 18.5673 13.0845H19.7265C19.9769 13.0845 20.102 13.1972 20.102 13.4225C20.102 13.4901 20.0803 13.5521 20.0367 13.6085L11.9714 24.5944C11.8952 24.6958 11.819 24.7746 11.7429 24.831C11.6667 24.8873 11.5524 24.9155 11.4 24.9155H10.2408ZM18.4531 25C17.7129 25 17.1197 24.7972 16.6735 24.3916C16.2381 23.9859 15.9932 23.4451 15.9388 22.769C15.9279 22.4761 15.9224 22.2169 15.9224 21.9915C15.9224 21.7662 15.9279 21.4958 15.9388 21.1803C15.9823 20.493 16.2163 19.9465 16.6408 19.5408C17.0762 19.1239 17.6803 18.9155 18.4531 18.9155C19.2367 18.9155 19.8408 19.1239 20.2653 19.5408C20.6898 19.9465 20.9238 20.493 20.9673 21.1803C20.9891 21.4958 21 21.7662 21 21.9915C21 22.2169 20.9891 22.4761 20.9673 22.769C20.9238 23.4451 20.6789 23.9859 20.2327 24.3916C19.7864 24.7972 19.1932 25 18.4531 25ZM18.4531 23.5127C18.6381 23.5127 18.7796 23.4732 18.8776 23.3944C18.9864 23.3042 19.068 23.1972 19.1224 23.0732C19.1769 22.938 19.2095 22.8028 19.2204 22.6676C19.2422 22.4085 19.2531 22.1718 19.2531 21.9577C19.2531 21.7437 19.2422 21.5127 19.2204 21.2648C19.2095 21.0507 19.1442 20.8592 19.0245 20.6901C18.9156 20.5099 18.7252 20.4197 18.4531 20.4197C18.1918 20.4197 18.0014 20.5099 17.8816 20.6901C17.7728 20.8592 17.7129 21.0507 17.702 21.2648C17.6912 21.5127 17.6857 21.7437 17.6857 21.9577C17.6857 22.1718 17.6912 22.4085 17.702 22.6676C17.7129 22.8028 17.7401 22.938 17.7837 23.0732C17.8381 23.1972 17.9197 23.3042 18.0286 23.3944C18.1374 23.4732 18.2789 23.5127 18.4531 23.5127ZM11.5469 19.0507C10.7959 19.0507 10.1973 18.8535 9.75102 18.4592C9.31565 18.0535 9.07619 17.5127 9.03265 16.8366C9.01088 16.5437 9 16.2845 9 16.0592C9.01088 15.8338 9.02177 15.5634 9.03265 15.2479C9.06531 14.5718 9.29388 14.031 9.71837 13.6254C10.1537 13.2085 10.7633 13 11.5469 13C12.3306 13 12.9347 13.2085 13.3592 13.6254C13.7837 14.031 14.0122 14.5718 14.0449 15.2479C14.0667 15.5634 14.0776 15.8338 14.0776 16.0592C14.0776 16.2845 14.0667 16.5437 14.0449 16.8366C14.0122 17.5127 13.7728 18.0535 13.3265 18.4592C12.8803 18.8535 12.2871 19.0507 11.5469 19.0507ZM11.5469 17.5803C11.7211 17.5803 11.8626 17.5408 11.9714 17.462C12.0803 17.3831 12.1619 17.2817 12.2163 17.1577C12.2707 17.0225 12.298 16.8873 12.298 16.7521C12.3197 16.493 12.3306 16.2563 12.3306 16.0423C12.3306 15.8282 12.3197 15.5972 12.298 15.3493C12.2871 15.1352 12.2218 14.9437 12.102 14.7746C11.9932 14.5944 11.8082 14.5042 11.5469 14.5042C11.2748 14.5042 11.0844 14.5944 10.9755 14.7746C10.8667 14.9437 10.8014 15.1352 10.7796 15.3493C10.7687 15.5972 10.7633 15.8282 10.7633 16.0423C10.7633 16.2563 10.7687 16.493 10.7796 16.7521C10.8014 16.8873 10.834 17.0225 10.8776 17.1577C10.9211 17.2817 10.9973 17.3831 11.1061 17.462C11.215 17.5408 11.3619 17.5803 11.5469 17.5803Z" fill="#EB174B"/>
+                            <path d="M1 9H29V26C29 27.6569 27.6569 29 26 29H4C2.34315 29 1 27.6569 1 26V9Z" stroke="#0A467E" stroke-width="1.5"/>
+                            <path d="M1 6C1 4.34315 2.34315 3 4 3H26C27.6569 3 29 4.34315 29 6V9H1V6Z" stroke="#0A467E" stroke-width="1.5"/>
+                            <line x1="7.75" y1="0.75" x2="7.75" y2="5.25" stroke="#0A467E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <line x1="23.75" y1="0.75" x2="23.75" y2="5.25" stroke="#0A467E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2_360">
+                            <rect width="30" height="30" fill="white"/>
+                            </clipPath>
+                            </defs>
+                </svg>
+                <h4 class="exN2__title">Програми підтримки продажів</h4>
+                <hr class="exN2__line"></hr>
+                <p class="exN2__p">Прибутковий бізнес з перших кроків!</p>
+                    </div>
+                    </div>
+                    </div>
+                        <div style="grid-area: block3" class="exN2__block3">
+                        <div class="exN2__elements-1">
+                    <svg class="exN2__svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <g clip-path="url(#clip0_2_369)">
+                                <path d="M6 11V10C6 8.89543 6.89543 8 8 8H11C12.1046 8 13 8.89543 13 10V11" stroke="#0A467E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18 29L29 29" stroke="#0A467E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M27 29V3C27 1.89543 26.1046 1 25 1H22C20.8954 1 20 1.89543 20 3V10.363" stroke="#0A467E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 29V6C20 4.89543 19.1046 4 18 4H15C13.8954 4 13 4.89543 13 6V11" stroke="#0A467E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 19.3105L7.64413 22.0336C8.14853 22.2403 8.71545 22.2322 9.21372 22.0111L16 19.0001" stroke="#EB174B" stroke-width="1.5"/>
+                                <path d="M12 17.0001V16.0001C12 14.8955 11.1046 14.0001 10 14.0001H8C6.89543 14.0001 6 14.8955 6 16.0001V17.0001" stroke="#EB174B" stroke-width="1.5"/>
+                                <rect x="1" y="17.0001" width="15" height="9" rx="2" stroke="#EB174B" stroke-width="1.5"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_2_369">
+                                <rect width="30" height="30" fill="white"/>
+                                </clipPath>
+                                </defs>
+                    </svg>
+                    <h4 class="exN2__title">Програма дискреційних заохочень Бізнес Плюс⁺</h4>
+                    <hr class="exN2__line"></hr>
+                    <p class="exN2__p">Додаткові винагороди: виконуйте умови програми, розвивайте стабільний бізнес та відкривайте нові переваги співпраці з Amway!</p>
+                        </div>
+                        </div>
+            </div>
+    </div>
+</section>
 </body>
 </html>
