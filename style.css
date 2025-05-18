@@ -32,40 +32,28 @@ line-height: 19.14px;
     font-size: 11px;
     font-weight: 600;
     gap: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
 }
 .navigation-bar__all {
     width: 51.2px;
     height: 39.97px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
 }
 .navigation-bar__category {
     width: 97.46px;
     height: 39.97px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 6px;
-    transition: all 0.5s;
 }
 .navigation-bar__collection {
     width: 103.75px;
     height: 39.97px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 6.29;
-    transition: all 0.5s;
 }
 .navigation-bar__price {
     width: 88.82px;
     height: 39.97px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
 }
 .nav:hover{
     background-color: black;
